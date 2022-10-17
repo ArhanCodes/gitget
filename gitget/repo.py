@@ -96,11 +96,11 @@ class Repo(Cog):
         except GithubException as e:
             match e.status:
                 case 404:
-                    await inter.edit_original_message("repo not found")
+                    await inter.edit_original_message("Repo not found.")
                 case 409:
                     await inter.edit_original_message("Git Repository is empty.")
                 case _:
-                    await inter.edit_original_message("unknown error")
+                    await inter.edit_original_message("Unknown Error.")
                     print(e)
 
 
