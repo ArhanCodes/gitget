@@ -1,4 +1,3 @@
-
 import dotenv
 
 if dotenv.find_dotenv():
