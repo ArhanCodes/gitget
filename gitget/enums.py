@@ -12,5 +12,3 @@ class Colors(Enum):
 
 class SupportedGitProviders(Enum):
     GitHub = "github"
-Footer
-© 2022 GitHub, Inc.
