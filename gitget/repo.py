@@ -1,4 +1,3 @@
-
 from __main__ import bot
 from disnake import CommandInteraction, Embed
 from disnake.ext.commands import Bot, Cog
@@ -13,7 +12,7 @@ class Repo(Cog):
     def __init__(self, bot: Bot) -> None:
         self.bot = bot
 
-    @bot.slash_command(description="Get information about a repository")
+    @bot.slash_command(description="Get information about a GitHub repository.")
     async def repo(
         self,
         inter: CommandInteraction,
